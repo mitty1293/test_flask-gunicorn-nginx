@@ -11,7 +11,7 @@ def index():
 @app.route('/redirect_test')
 def redirect_test():
     # flash("リダイレクトされました")
-    return redirect(url_for('redirect_result'))
+    return redirect(url_for('redirect_result', _external=True))
     # return redirect('/redirect_result')
 
 @app.route('/redirect_result')
