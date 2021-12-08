@@ -4,3 +4,4 @@ RUN apt-get update && \
     vim && \
     apt-get clean
 COPY default.conf /etc/nginx/conf.d/default.conf
+COPY nginx.conf /etc/nginx/nginx.conf
