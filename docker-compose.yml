@@ -15,7 +15,7 @@ services:
         networks:
             - internal
         # gunicorn -w WORKERS -b BIND $(MODULE_NAME):$(VARIABLE_NAME) --reload
-        command: /usr/local/bin/gunicorn -w 2 -b 0.0.0.0:8000 app:app --timeout 60 --reload
+        command: /usr/local/bin/gunicorn -c /usr/src/gunicorn.conf.py -w 2 -b 0.0.0.0:8000 app:app --timeout 60 --reload
     nginx:
         image: nginx_test
         build:
