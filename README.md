@@ -12,6 +12,7 @@ https://developer.mozilla.org/ja/docs/Web/HTTP/Headers/Location
 * Location レスポンスヘッダーはリダイレクト先の URL を示します。
 ### リダイレクト
 * https://developer.mozilla.org/ja/docs/Web/HTTP/Redirections
+* https://msiz07-flask-docs-ja.readthedocs.io/ja/latest/quickstart.html#about-responses
 ### ログ
 #### nginx
 * https://siguniang.wordpress.com/2013/10/08/logging-request-response-headers-with-nginx/
@@ -22,3 +23,4 @@ https://developer.mozilla.org/ja/docs/Web/HTTP/Headers/Location
 #### gunicorn
 * https://docs.gunicorn.org/en/stable/settings.html#access-log-format
 * https://qiita.com/aqmr-kino/items/05ab0e003495d5196210
+* https://www.youtube.com/watch?v=S-InxJA5NOg
