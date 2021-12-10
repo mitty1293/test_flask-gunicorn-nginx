@@ -11,8 +11,9 @@ Flask, gunicorn, nginxの組み合わせで検証を行うためのリポジト�
 `/var/log/flask_header.log`に出力される。
 ## 参考資料
 ### Locationヘッダー
-https://developer.mozilla.org/ja/docs/Web/HTTP/Headers/Location
-* Location レスポンスヘッダーはリダイレクト先の URL を示します。
+* https://datatracker.ietf.org/doc/html/rfc7231#section-7.1.2
+* https://developer.mozilla.org/ja/docs/Web/HTTP/Headers/Location
+    * Location レスポンスヘッダーはリダイレクト先の URL を示します。
 ### リダイレクト
 * https://developer.mozilla.org/ja/docs/Web/HTTP/Redirections
 * https://msiz07-flask-docs-ja.readthedocs.io/ja/latest/quickstart.html#about-responses
