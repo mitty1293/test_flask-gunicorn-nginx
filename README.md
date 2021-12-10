@@ -6,6 +6,9 @@ Flask, gunicorn, nginxの組み合わせで検証を行うためのリポジト�
 ## gunicornのログについて
 `gunicorn.conf.py`にてhttpリクエスト及びレスポンスヘッダーをログ出力できるようにしてある。<br>
 `/var/log/gunicorn_access.log`に出力される。
+## flaskで作成されるResponseについて
+`views.py`にてレスポンスヘッダーを出力できるようにしてある。<br>
+`/var/log/flask_header.log`に出力される。
 ## 参考資料
 ### Locationヘッダー
 https://developer.mozilla.org/ja/docs/Web/HTTP/Headers/Location
