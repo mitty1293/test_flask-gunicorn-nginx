@@ -8,6 +8,10 @@ app.secret_key = "".join([random.choice(string.ascii_letters + string.digits + '
 def index():
     return render_template("index.html")
 
+@app.route('/string_test/<string:some_string>')
+def string_test(some_string):
+    return render_template("string_test.html", some_string=some_string)
+
 @app.route('/redirect_test')
 def redirect_test():
     # flash("リダイレクトされました")
