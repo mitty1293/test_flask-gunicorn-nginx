@@ -10,6 +10,8 @@ Flask, gunicorn, nginxの組み合わせで検証を行うためのリポジト�
 `views.py`にてレスポンスヘッダーを出力できるようにしてある。<br>
 `/var/log/flask_header.log`に出力される。
 ## 参考資料
+### Flaskデバッグモード
+* https://www.nblog09.com/w/2020/12/11/flask-debug/
 ### Locationヘッダー
 * https://datatracker.ietf.org/doc/html/rfc7231#section-7.1.2
 * https://developer.mozilla.org/ja/docs/Web/HTTP/Headers/Location
