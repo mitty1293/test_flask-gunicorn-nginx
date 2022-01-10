@@ -10,8 +10,6 @@ services:
             - ./flask/app:/usr/src/app
         secrets:
             - secrets_test
-        env_file: 
-            - ./.env
         networks:
             - internal
         # gunicorn -w WORKERS -b BIND $(MODULE_NAME):$(VARIABLE_NAME) --reload
