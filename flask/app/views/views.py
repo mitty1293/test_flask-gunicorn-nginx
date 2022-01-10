@@ -6,6 +6,9 @@ app.secret_key = "".join([random.choice(string.ascii_letters + string.digits + '
 
 @app.route('/')
 def index():
+    app.logger.info("info: accessed /")
+    app.logger.debug("debug: accessed /")
+    app.logger.warn("warn: accessed /")
     return render_template("index.html")
 
 @app.route('/string_test/<string:some_string>')
